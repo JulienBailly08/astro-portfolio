@@ -17,7 +17,7 @@ const Article = ({article}: Props) => {
     >
       <a class="absolute w-full h-full left-0" target="_black" href={link}></a>
       <div class="flex flex-col">
-        <h3 class="text-xxs 2xl:text-xs items-baseline font-bold capitalize text-light-blue-dark dark:text-dark-blue-light">
+        <h3 class="text-xxs 2xl:text-xs items-baseline font-bold text-light-blue-dark dark:text-dark-blue-light">
           {title}
           <div class="flex my-auto">
             {categories
