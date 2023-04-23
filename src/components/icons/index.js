@@ -7,6 +7,7 @@ import IconUser from "./IconUser.astro"
 import IconBlog from "./IconBlog.astro"
 import IconAstro from "./IconAstro.astro"
 import IconMenu from "./IconMenu.astro"
+import IconPhp from "./IconPhp.astro"
 
 export {
   IconSun,
@@ -17,5 +18,6 @@ export {
   IconUser,
   IconBlog,
   IconMenu,
-  IconAstro
+  IconAstro,
+  IconPhp
 }
