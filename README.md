@@ -2,7 +2,6 @@
 
 ## Thank You [pabloLC](https://github.com/paabloLC) for your excelent work on this Astro Theme [Neumorphism](https://github.com/paabloLC/astro-neumorphism)
 
-* A simple and responsive template focused on the entire UI design style with __neumorphism styles.__
   
 <img src="https://user-images.githubusercontent.com/13178577/186695514-7811daf8-891c-473d-92c1-c288a1b80ba7.png" width="100%"
 max-height="450px" style="object-fit:cover;"  alt="mockup astro neumorphismt" />
