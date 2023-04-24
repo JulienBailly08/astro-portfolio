@@ -34,9 +34,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Upload to Deno Deploy
-        uses: denoland/deployctl@v1
-        with:
-          project: astro
-          entrypoint: server/entry.mjs
-          root: dist
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1

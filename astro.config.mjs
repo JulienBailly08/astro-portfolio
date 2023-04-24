@@ -10,8 +10,8 @@ export default defineConfig({
     // Useful if you need to define and/or import your own custom `base.css`.
     config: { applyBaseStyles: false },
 	}), preact()],
-	output: 'server',
+	output: 'static',
 	adapter: deno(),
 	site: 'https://julienbailly08.github.io',
-	//base: '/astro-portfolio',
+	base: '/astro-portfolio',
 });
