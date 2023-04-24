@@ -1,7 +1,6 @@
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import preact from '@astrojs/preact';
-import deno from '@astrojs/deno';
 
 // https://astro.build/config
 export default defineConfig({
@@ -11,7 +10,4 @@ export default defineConfig({
     config: { applyBaseStyles: false },
 	}), preact()],
 	output: 'static',
-	//adapter: deno(),
-	site: 'https://julienbailly08.github.io',
-	base: '/astro-portfolio',
 });
