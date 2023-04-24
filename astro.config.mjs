@@ -11,5 +11,7 @@ export default defineConfig({
     config: { applyBaseStyles: false },
 	}), preact()],
 	output: 'server',
-  adapter: deno(),
+	adapter: deno(),
+	site: 'https://julienbailly08.github.io',
+	base: '/astro-portfolio',
 });
