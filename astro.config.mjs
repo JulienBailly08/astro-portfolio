@@ -13,4 +13,5 @@ export default defineConfig({
 	output: 'server',
 	adapter: deno(),
 	site: 'https://julienbailly08.github.io',
+	base: '/astro-portfolio',
 });
