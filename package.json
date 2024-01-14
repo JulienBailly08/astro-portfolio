@@ -21,6 +21,7 @@
   "dependencies": {
     "@astrojs/deno": "^1.0.0",
     "atropos": "1.0.2",
-    "moment": "^2.29.4"
+    "moment": "^2.29.4",
+    "pnpm": "^8.14.1"
   }
 }

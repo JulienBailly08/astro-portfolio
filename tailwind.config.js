@@ -33,8 +33,10 @@ module.exports = {
           "linear-gradient(210.55deg, #EBF2F9 19.14%, #C6D7EB 154.68%)",
         "gradient-box-light":
           "linear-gradient(180deg, #F1F5F8 0%, #EBF3FA 0.01%, #DDE7F3 53.92%, #E6F0F9 100%)",
+        //"gradient-main-dark":
+        //  "linear-gradient(112.71deg, #4D535C -7.06%, #171C21 50.9%, #121417 107.91%)",
         "gradient-main-dark":
-          "linear-gradient(112.71deg, #4D535C -7.06%, #171C21 50.9%, #121417 107.91%)",
+        "linear-gradient(112.71deg, #4D535C -7.06%, #171C21 50.9%, #4D535C 107.91%)",
         "gradient-box-dark":
           "linear-gradient(169.29deg, #262B2F -0.68%, #16191D 74.03%)",
         "box-dark":
