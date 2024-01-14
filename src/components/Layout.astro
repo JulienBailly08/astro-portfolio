@@ -11,6 +11,7 @@ import {
 } from "../components/icons";
 import RoundIconButton from "./RoundIconButton.astro";
 import SquareIconLink from "./SquareIconLink.astro";
+import IconCv from './icons/IconCv.astro';
 
 export interface Props {
 	title: string;
@@ -77,27 +78,10 @@ const { title } = Astro.props as Props;
 				class="flex self-end w-fit px-1.25 py-1.25 shadow-box-up rounded-2xl dark:bg-box-dark dark:shadow-box-dark-out"
 			>
 				<div class="dark:shadow-buttons-box-dark rounded-2xl w-full px-1.5 py-1.5 md:px-3 md:py-3">
+
 					<SquareIconLink title="Revenir à la page d'accueil" target="_self" href="/">
 						<IconHome />
 					</SquareIconLink>
-					<!-- <span class="hidden md:inline-flex mr-4">
-					<SquareIconLink
-						title="Accéder à la liste des projets"
-						target="_self"
-						href="/projets"
-					>
-						<IconBlog />
-					</SquareIconLink>
-					</span> -->
-					<span class="hidden md:inline-flex mr-4">
-					<SquareIconLink
-						title="Mon CV"
-						target="_blank"
-						href="https://julienbailly.ddns.net/cv"
-					>
-						<IconBlog />
-					</SquareIconLink>
-					</span>
 					<SquareIconLink
 						title="Me connaitre"
 						target="_self"
@@ -105,6 +89,14 @@ const { title } = Astro.props as Props;
 					>
 						<IconUser />
 					</SquareIconLink>
+					<SquareIconLink
+						title="Mon CV"
+						target="_blank"
+						href="https://julienbailly.ddns.net/cv"
+					>
+						<IconCv />
+					</SquareIconLink>
+
 				</div>
 			</div>
 		</main>
