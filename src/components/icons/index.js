@@ -10,9 +10,11 @@ import IconMenu from "./IconMenu.astro"
 import IconPhp from "./IconPhp.astro"
 import IconJS from "./IconJS.astro"
 import IconCv from "./IconCv.astro"
+import IconGitlab from "./IconGitlab.astro"
 
 export {
   IconSun,
+  IconGitlab,
   IconGithub,
   IconTwitter,
   IconHome,

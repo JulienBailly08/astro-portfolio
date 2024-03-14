@@ -27,14 +27,6 @@ const datas =
       link: 'https://julienbailly.ddns.net/playground',
       description: 'Partie front adaptée d\'un projet construit avec NestJS et MongoDB',
     },
-    {
-      title: 'Jeu de mémoire',
-      categories: [
-        'JS','PHP','SQL'
-      ],
-      link: 'https://julienbailly.ddns.net/memory',
-      description: 'Découverte du Javascript, du php et du sql',
-    },
   ]
 
 const Blog = () => {

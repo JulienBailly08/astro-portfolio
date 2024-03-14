@@ -4,6 +4,7 @@ import Technologies from "./Technologies.astro";
 import {
 	IconSun,
 	IconGithub,
+	IconGitlab,
 	IconAstro,
 	IconUser,
 	IconBlog,
@@ -63,12 +64,19 @@ const { title } = Astro.props as Props;
 						</RoundIconButton>
 						<span class="mr-4"></span>
 						<SquareIconLink
-							title="Accéder à mon github"
-							href="https://github.com/JulienBailly08/"
+							title="Accéder à mon gitlab"
+							href="https://gitlab.com/julienbailly"
 							target="_blank"
 						>
 							<IconGithub />
 						</SquareIconLink>
+											<SquareIconLink
+						title="Mon CV"
+						target="_blank"
+						href="https://julienbailly.ddns.net/cv"
+					>
+						<IconCv />
+					</SquareIconLink>
 					</div>
 				</div>
 			</div>
@@ -90,12 +98,14 @@ const { title } = Astro.props as Props;
 						<IconUser />
 					</SquareIconLink>
 					<SquareIconLink
-						title="Mon CV"
-						target="_blank"
-						href="https://julienbailly.ddns.net/cv"
+						title="Quelques projets hébergés"
+						target="_self"
+						href="/projets"
 					>
-						<IconCv />
+						<IconBlog />
 					</SquareIconLink>
+
+
 
 				</div>
 			</div>
