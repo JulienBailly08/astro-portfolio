@@ -9,6 +9,10 @@
   --font-size-xl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
 }
 
+.custom-width {
+	width: 90vw;
+}
+
 html {
   font-family: Raleway, system-ui, sans-serif;
   font-size: var(--font-size-base);
